@@ -1,0 +1,32 @@
+{
+  "name": "algolia-fire-sync",
+  "version": "0.1.0",
+  "description": "Synchronise data between Algolia and Firebase.",
+  "scripts": {
+    "start": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darknesszy/algolia-fire-sync.git"
+  },
+  "author": "Michael May",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darknesszy/algolia-fire-sync/issues"
+  },
+  "homepage": "https://github.com/darknesszy/algolia-fire-sync#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.4.0",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.1.1",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
