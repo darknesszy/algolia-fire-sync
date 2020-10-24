@@ -1,5 +1,5 @@
-import { ProductSyncer } from './product-syncer'
+import { ProductETL } from './product-elt'
 
 export {
-    ProductSyncer,
+    ProductETL,
 }
